@@ -1,0 +1,28 @@
+{
+  "name": "swarmkeeper",
+  "version": "0.0.1",
+  "description": "Make a swarm of node instances act as a collective",
+  "keywords": ["peer", "p2p", "cluster", "socialism"],
+  "author": "Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)",
+  "repository": {
+    "url": "https://github.com/jolira/node-swarmkeeper.git",
+    "type": "git"
+  },
+  "bugs": {
+    "mail": "dev@jolira.com",
+    "url": "http://github.com/jolira/node-swarmkeeper/issues"
+  },
+  "scripts": {
+    "test": "make test",
+    "prepublish": "npm prune"
+  },
+  "devDependencies": {
+    "mocha": "0.10.0",
+    "should": "0.5.1"
+  },
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "main": "index",
+  "engines": { "node": ">= 0.6.0 < 0.7.0" }
+}
