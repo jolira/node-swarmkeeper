@@ -1,8 +1,11 @@
 Swarm Keeper
 =====================
 
-The goal of this library is to create and manage a network of node.js
-processes running one or more networked machines. Each process is identified
-uniquely by a unique server address and port number the process listens to.
+This component allows users to write code that executed by a collection of
+node objects instead of just one. Swarms can run on just one machine or can be
+distributed over networks.
 
+This library defines the common classes for different keeper implementations.
+Please refer to components such as jolira/node-swarmkeeper-http for a concrete
+implementation.
 
