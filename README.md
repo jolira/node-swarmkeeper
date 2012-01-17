@@ -7,6 +7,6 @@ distributed over networks.
 
 This library defines the common classes for different keeper implementations.
 Please refer to components such as 
-[node-swarmkeeper-http](http://github.com/jolira/node-swarmkeeper) for a
+[node-swarmkeeper-http](http://github.com/jolira/node-swarmkeeper-http) for a
 concrete implementation.
 
